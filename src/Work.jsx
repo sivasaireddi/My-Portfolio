@@ -18,32 +18,7 @@ const Work = () => {
         {/* Container */}
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${buyanything})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="px-4 text-2xl font-bold tracking-wider text-white">
-                BuyAnything
-              </span>
-              <div className="pt-8 text-center">
-                <a target="_blank" href="https://buyanythingstore.netlify.app/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  target="_blank"
-                  href="https://github.com/Shubham-Kumar25/buyanything.git"
-                >
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          
           <div
             style={{ backgroundImage: `url(${weatherapp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
