@@ -87,7 +87,7 @@ const Work = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/Shubham-Kumar25/hungry-junction.git"
+                  href="https://github.com/sivasaireddi/hungry-junction"
                 >
                   <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
                     Code
