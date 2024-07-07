@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Photo from "./assets/photo.png";
+
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <div className="flex flex-col justify-center px-8 ">
           <p className="text-pink-600">Hi, my name is</p>
           <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-            Shubham Kumar
+           Sai Reddy
           </h1>
           <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
             I'm a Front-End Developer.
@@ -32,7 +32,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <img className="hidden w-64 h-64 md:block" src={Photo} alt="My Photo" />
+        
       </div>
     </div>
   );
